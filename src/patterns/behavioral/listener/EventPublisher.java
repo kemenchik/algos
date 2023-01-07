@@ -1,4 +1,4 @@
-package patterns.listener;
+package patterns.behavioral.listener;
 
 public class EventPublisher {
     EventManager manager;
