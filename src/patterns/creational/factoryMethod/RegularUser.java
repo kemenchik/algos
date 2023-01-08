@@ -11,6 +11,6 @@ public class RegularUser implements User {
 
     @Override
     public void useApp() {
-        System.out.println("Scrolling news");
+        System.out.println(name+ " scrolling news");
     }
 }

@@ -17,7 +17,7 @@ public class MailingAd implements EventAd{
 
     @Override
     public String getHistoryAd() {
-        return ad.getHistoryAd()+", "+NAME;
+        return ad.getHistoryAd()+", "+NAME+": "+"+"+PRICE;
     }
 
     @Override

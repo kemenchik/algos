@@ -2,8 +2,7 @@ package patterns.creational.abstractFactory;
 
 public class OnlinePayment implements Payment{
     @Override
-    public Payment makeReceipt() {
+    public void makeReceipt() {
         System.out.println("Issue a check for online payment");
-        return new OnlinePayment();
     }
 }

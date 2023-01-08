@@ -1,18 +1,18 @@
 package patterns.structural.decorator;
 
 public class DefaultTariff implements EventAd {
-    private int reach;
+    private int stat;
     private static final String NAME = "DefaultTariff";
     private int price;
 
-    public DefaultTariff(int reach) {
-        this.reach = reach;
+    public DefaultTariff(int stat) {
+        this.stat = stat;
     }
 
 
     @Override
     public int getStatistic() {
-        return reach;
+        return stat;
     }
 
     @Override

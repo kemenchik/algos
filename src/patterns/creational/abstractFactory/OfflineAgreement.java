@@ -1,9 +1,9 @@
 package patterns.creational.abstractFactory;
 
-public class OfflineAgreement implements Agreement{
+public class OfflineAgreement implements Agreement {
     @Override
-    public Agreement prepareDocuments() {
+    public void prepareDocuments() {
         System.out.println("Prepare Documents and print them");
-        return new OnlineAgreement();
     }
+
 }

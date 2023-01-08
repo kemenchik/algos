@@ -8,7 +8,7 @@ public class Singletons {
         private OrdinarySingleton() {
         }
 
-        public OrdinarySingleton getSingleton() {
+        public static OrdinarySingleton getSingleton() {
             if (singleton == null) {
                 singleton = new OrdinarySingleton();
             }
@@ -30,10 +30,9 @@ public class Singletons {
             }
         }
 
-        public LazyInstSingleton getSingleton() {
+        public static LazyInstSingleton getSingleton() {
             return SingletonInst.returnSingleton();
         }
-
 
     }
 
@@ -62,7 +61,7 @@ public class Singletons {
         private MultithreadingSingleton() {
         }
 
-        public MultithreadingSingleton getSingleton() {
+        public static MultithreadingSingleton getSingleton() {
             synchronized (MultithreadingSingleton.class) {
                 if (singleton == null) {
                     singleton = new MultithreadingSingleton();

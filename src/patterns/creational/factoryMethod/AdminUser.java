@@ -11,6 +11,6 @@ public class AdminUser implements User{
 
     @Override
     public void useApp() {
-        System.out.println("Moderating the news");
+        System.out.println(name+" moderating the news");
     }
 }
