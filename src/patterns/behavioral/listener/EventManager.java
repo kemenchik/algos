@@ -1,4 +1,4 @@
-package patterns.listener;
+package patterns.behavioral.listener;
 
 import java.util.ArrayList;
 import java.util.HashMap;
